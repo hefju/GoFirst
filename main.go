@@ -36,7 +36,7 @@ func main() {
 	fmt.Println(affect)
 
 	//查询数据
-	rows, err := db.Query("SELECT * FROM userinfo")
+	rows, err := db.Query("SELECT * FROM userinfo"golang sdk
 	checkErr(err)
 
 	for rows.Next() {
